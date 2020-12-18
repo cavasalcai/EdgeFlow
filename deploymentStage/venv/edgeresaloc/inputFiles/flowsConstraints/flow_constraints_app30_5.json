@@ -1,0 +1,20 @@
+{"constraints": {
+	"flows": [
+		{"id": "f1", "e2e": "500", "path": [
+			{"src": "c0", "dest": "c1", "port": [{"input": "IN1"}, {"output": "OUT1"}]}, {"src": "c1", "dest": "c2", "port": [{"input": "IN1"}, {"output": "OUT0"}]}, {"src": "c2", "dest": "c3", "port": [{"input": "IN0"}, {"output": "OUT1"}]}, {"src": "c3", "dest": "c4", "port": [{"input": "IN0"}, {"output": "OUT0"}]}, {"src": "c4", "dest": "c5", "port": [{"input": "IN1"}, {"output": "OUT1"}]}, {"src": "c5", "dest": "c6", "port": [{"input": "IN1"}, {"output": "OUT0"}]}, {"src": "c6", "dest": "c7", "port": [{"input": "IN0"}, {"output": "OUT0"}]}, {"src": "c7", "dest": "c8", "port": [{"input": "IN0"}, {"output": "OUT0"}]}, {"src": "c8", "dest": "c9", "port": [{"input": "IN0"}, {"output": "OUT1"}]}, {"src": "c9", "dest": "c10", "port": [{"input": "IN1"}, {"output": "OUT0"}]}, {"src": "c10", "dest": "c11", "port": [{"input": "IN1"}, {"output": "OUT0"}]}, {"src": "c11", "dest": "c12", "port": [{"input": "IN0"}, {"output": "OUT0"}]}, {"src": "c12", "dest": "c13", "port": [{"input": "IN1"}, {"output": "OUT0"}]}, {"src": "c13", "dest": "c14", "port": [{"input": "IN0"}, {"output": "OUT1"}]}, {"src": "c14", "dest": "c15", "port": [{"input": "IN0"}, {"output": "OUT0"}]}, {"src": "c15", "dest": "c16", "port": [{"input": "IN0"}, {"output": "OUT1"}]}, {"src": "c16", "dest": "c17", "port": [{"input": "IN1"}, {"output": "OUT1"}]}, {"src": "c17", "dest": "c18", "port": [{"input": "IN1"}, {"output": "OUT0"}]}, {"src": "c18", "dest": "c19", "port": [{"input": "IN0"}, {"output": "OUT1"}]}, {"src": "c19", "dest": "c20", "port": [{"input": "IN1"}, {"output": "OUT1"}]}, {"src": "c20", "dest": "c21", "port": [{"input": "IN1"}, {"output": "OUT1"}]}, {"src": "c21", "dest": "c22", "port": [{"input": "IN0"}, {"output": "OUT0"}]}, {"src": "c22", "dest": "c23", "port": [{"input": "IN0"}, {"output": "OUT1"}]}, {"src": "c23", "dest": "c24", "port": [{"input": "IN0"}, {"output": "OUT1"}]}, {"src": "c24", "dest": "c25", "port": [{"input": "IN0"}, {"output": "OUT0"}]}, {"src": "c25", "dest": "c26", "port": [{"input": "IN0"}, {"output": "OUT1"}]}, {"src": "c26", "dest": "c27", "port": [{"input": "IN1"}, {"output": "OUT1"}]}, {"src": "c27", "dest": "c28", "port": [{"input": "IN0"}, {"output": "OUT1"}]}, {"src": "c28", "dest": "c29", "port": [{"input": "IN0"}, {"output": "OUT1"}]}, {"src": "c29", "dest": "", "port": [{"input": "IN0"}, {"output": ""}]}]}, 
+
+		{"id": "f2", "e2e": "500", "path": [
+			{"src": "c12", "dest": "c13", "port": [{"input": "IN0"}, {"output": "OUT1"}]},
+			{"src": "c13", "dest": "", "port": [{"input": "IN1"}, {"output": ""}]}]},
+
+		{"id": "f3", "e2e": "500", "path": [
+			{"src": "c15", "dest": "c28", "port": [{"input": "IN0"}, {"output": "OUT0"}]},
+			 {"src": "c28", "dest": "", "port": [{"input": "IN0"}, {"output": ""}]}]}, 
+
+		{"id": "f4", "e2e": "500", "path": [
+			{"src": "c20", "dest": "c28", "port": [{"input": "IN0"}, {"output": "OUT0"}]},
+			 {"src": "c28", "dest": "", "port": [{"input": "IN1"}, {"output": ""}]}]}, 
+
+		{"id": "f5", "e2e": "500", "path": [
+			{"src": "c5", "dest": "c7", "port": [{"input": "IN1"}, {"output": "OUT0"}]},
+			 {"src": "c7", "dest": "", "port": [{"input": "IN1"}, {"output": ""}]}]}]}}

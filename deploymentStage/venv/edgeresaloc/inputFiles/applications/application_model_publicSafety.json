@@ -1,0 +1,38 @@
+{
+  "application": {
+    "components": [
+      {
+        "id": "C1",
+        "RAM": "6",
+        "CPU": "7",
+        "HDD": "5",
+        "WCET": [{"l": "5"},{"u": "9"}],
+        "ports": [{"input": []},{"output": [{"OUT": {"data_size": "60","period": "2"}}]}]
+      },
+      {
+        "id": "C2",
+        "RAM": "13",
+        "CPU": "15",
+        "HDD": "7",
+        "WCET": [{"l": "20"},{"u": "35"}],
+        "ports": [{"input": []},{"output": [{"OUT": {"data_size": "90","period": "2"}}]}]
+      },
+      {
+        "id": "C3",
+        "RAM": "10",
+        "CPU": "13",
+        "HDD": "10",
+        "WCET": [{"l": "15"},{"u": "25"}],
+        "ports": [{"input": []},{"output": [{"OUT": {"data_size": "75","period": "2"}}]}]
+      },
+      {
+        "id": "C4",
+        "RAM": "3",
+        "CPU": "2",
+        "HDD": "3",
+        "WCET": [{"l": "2"},{"u": "4"}],
+        "ports": [{"input": []},{"output": []}]
+      }
+      ]
+  }
+}

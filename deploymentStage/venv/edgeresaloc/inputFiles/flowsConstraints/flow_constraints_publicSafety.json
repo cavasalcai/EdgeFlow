@@ -1,0 +1,48 @@
+{
+  "constraints": {
+    "flows": [
+      {
+        "id": "f1",
+        "e2e": "40",
+        "path": [
+          {
+            "src": "C1",
+            "dest": "C2",
+            "port": [{"input": "IN"},{"output": "OUT"}]
+          },
+          {
+            "src": "C2",
+            "dest": "C4",
+            "port": [{"input": "IN"},{"output": "OUT"}]
+          },
+          {
+            "src": "C4",
+            "dest": "",
+            "port": [{"input": "IN"},{"output": ""}]
+          }
+        ]
+      },
+      {
+        "id": "f2",
+        "e2e": "33",
+        "path": [
+          {
+            "src": "C1",
+            "dest": "C3",
+            "port": [{"input": "IN"},{"output": "OUT"}]
+          },
+          {
+            "src": "C3",
+            "dest": "C4",
+            "port": [{"input": "IN"},{"output": "OUT"}]
+          },
+          {
+            "src": "C4",
+            "dest": "",
+            "port": [{"input": "IN"},{"output": ""}]
+          }
+        ]
+      }
+    ]
+  }
+}

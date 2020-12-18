@@ -1,0 +1,29 @@
+{"application": {
+  "components": [
+    {"id": "c0", "CPU": "14", "RAM": "11", "HDD": "14", "WCET": [{"l": "6"}, {"u": "11"}], "ports": [
+      {"input": [{"IN0": {"period": "20", "data_size": "36"}}, {"IN1": {"period": "30", "data_size": "39"}}]},
+      {"output": [{"OUT0": {"period": "18", "data_size": "51"}}, {"OUT1": {"period": "25", "data_size": "116"}}]}]},
+    {"id": "c1", "CPU": "14", "RAM": "9", "HDD": "13", "WCET": [{"l": "8"}, {"u": "10"}], "ports": [
+      {"input": [{"IN0": {"period": "17", "data_size": "113"}}, {"IN1": {"period": "15", "data_size": "46"}}]},
+      {"output": [{"OUT0": {"period": "21", "data_size": "40"}}, {"OUT1": {"period": "12", "data_size": "79"}}]}]},
+    {"id": "c2", "CPU": "11", "RAM": "9", "HDD": "8", "WCET": [{"l": "6"}, {"u": "11"}], "ports": [
+      {"input": [{"IN0": {"period": "15", "data_size": "112"}}, {"IN1": {"period": "29", "data_size": "90"}}]},
+      {"output": [{"OUT0": {"period": "25", "data_size": "39"}}, {"OUT1": {"period": "15", "data_size": "85"}}]}]},
+    {"id": "c3", "CPU": "6", "RAM": "14", "HDD": "11", "WCET": [{"l": "10"}, {"u": "11"}], "ports": [
+      {"input": [{"IN0": {"period": "27", "data_size": "107"}}, {"IN1": {"period": "23", "data_size": "103"}}]},
+      {"output": [{"OUT0": {"period": "26", "data_size": "104"}}, {"OUT1": {"period": "29", "data_size": "107"}}]}]},
+    {"id": "c4", "CPU": "9", "RAM": "12", "HDD": "10", "WCET": [{"l": "6"}, {"u": "10"}], "ports": [
+      {"input": [{"IN0": {"period": "15", "data_size": "102"}}, {"IN1": {"period": "10", "data_size": "117"}}]},
+      {"output": [{"OUT0": {"period": "17", "data_size": "71"}}, {"OUT1": {"period": "27", "data_size": "69"}}]}]},
+    {"id": "c5", "CPU": "11", "RAM": "6", "HDD": "9", "WCET": [{"l": "4"}, {"u": "10"}], "ports": [
+      {"input": [{"IN0": {"period": "16", "data_size": "105"}}, {"IN1": {"period": "23", "data_size": "92"}}]},
+      {"output": [{"OUT0": {"period": "12", "data_size": "80"}}, {"OUT1": {"period": "23", "data_size": "102"}}]}]},
+    {"id": "c6", "CPU": "9", "RAM": "7", "HDD": "6", "WCET": [{"l": "4"}, {"u": "12"}], "ports": [
+      {"input": [{"IN0": {"period": "18", "data_size": "118"}}, {"IN1": {"period": "23", "data_size": "101"}}]},
+      {"output": [{"OUT0": {"period": "13", "data_size": "66"}}, {"OUT1": {"period": "29", "data_size": "97"}}]}]},
+    {"id": "c7", "CPU": "12", "RAM": "11", "HDD": "13", "WCET": [{"l": "5"}, {"u": "12"}], "ports": [
+      {"input": [{"IN0": {"period": "25", "data_size": "107"}}, {"IN1": {"period": "15", "data_size": "104"}}]},
+      {"output": [{"OUT0": {"period": "18", "data_size": "112"}}, {"OUT1": {"period": "25", "data_size": "70"}}]}]},
+    {"id": "c8", "CPU": "7", "RAM": "7", "HDD": "15", "WCET": [{"l": "5"}, {"u": "12"}], "ports": [
+      {"input": [{"IN0": {"period": "20", "data_size": "37"}}, {"IN1": {"period": "15", "data_size": "74"}}]},
+      {"output": [{"OUT0": {"period": "15", "data_size": "66"}}, {"OUT1": {"period": "29", "data_size": "103"}}]}]}, {"id": "c9", "CPU": "6", "RAM": "11", "HDD": "14", "WCET": [{"l": "5"}, {"u": "10"}], "ports": [{"input": [{"IN0": {"period": "26", "data_size": "86"}}, {"IN1": {"period": "17", "data_size": "31"}}]}, {"output": [{"OUT0": {"period": "17", "data_size": "56"}}, {"OUT1": {"period": "28", "data_size": "79"}}]}]}]}}
