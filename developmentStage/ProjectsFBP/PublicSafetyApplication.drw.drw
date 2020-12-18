@@ -1,0 +1,31 @@
+<?xml version="1.0"?> 
+ <drawfbp_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:noNamespaceSchemaLocation="https://github.com/jpaulm/drawfbp/blob/master/lib/drawfbp_file.xsd">
+<net>
+<desc>Click anywhere on selection area</desc>
+ <complang>Java</complang>
+ <clicktogrid>true</clicktogrid> 
+<sortbydate>false</sortbydate> 
+<blocks><block> <x> 427 </x> <y> 248 </y> <id> 16 </id> <type>B</type> <width>92</width> <height>64</height> <description>C1: Motion
+Detection</description> <multiplex>false</multiplex><invisible>false</invisible><issubnet>false</issubnet> 
+</block> 
+<block> <x> 431 </x> <y> 141 </y> <id> 9 </id> <type>I</type> <width>98</width> <height>18</height> <description>C0: raw_data</description> <multiplex>false</multiplex><invisible>false</invisible><issubnet>false</issubnet> 
+</block> 
+<block> <x> 614 </x> <y> 248 </y> <id> 11 </id> <type>B</type> <width>92</width> <height>64</height> <description>C2: Face 
+Recognition</description> <multiplex>false</multiplex><invisible>false</invisible><issubnet>false</issubnet> 
+</block> 
+<block> <x> 614 </x> <y> 391 </y> <id> 12 </id> <type>B</type> <width>92</width> <height>64</height> <description>C3: Env. 
+Analysis</description> <multiplex>false</multiplex><invisible>false</invisible><issubnet>false</issubnet> 
+</block> 
+<block> <x> 813 </x> <y> 248 </y> <id> 13 </id> <type>B</type> <width>92</width> <height>64</height> <description>C4: Send 
+Alarm</description> <multiplex>false</multiplex><invisible>false</invisible><issubnet>false</issubnet> 
+</block> 
+</blocks> <connections>
+<connection> <fromx>430</fromx> <fromy>150</fromy> <tox>430</tox> <toy>216</toy> <fromid>9</fromid> <toid>16</toid> <id>17</id> <endsatline>false</endsatline><downstreamport>IN</downstreamport><segno>0</segno></connection> 
+<connection> <fromx>473</fromx> <fromy>248</fromy> <tox>568</tox> <toy>248</toy> <fromid>16</fromid> <toid>11</toid> <id>18</id> <endsatline>false</endsatline><upstreamport>OUT</upstreamport><downstreamport>IN</downstreamport><segno>0</segno></connection> 
+<connection> <fromx>424</fromx> <fromy>280</fromy> <tox>568</tox> <toy>392</toy> <fromid>16</fromid> <toid>12</toid> <id>19</id> <endsatline>false</endsatline><upstreamport>OUT</upstreamport><downstreamport>IN</downstreamport><segno>0</segno><bends> <bend> <x>424</x> <y> 392</y> </bend>
+ </bends> </connection> 
+<connection> <fromx>660</fromx> <fromy>247</fromy> <tox>767</tox> <toy>247</toy> <fromid>11</fromid> <toid>13</toid> <id>14</id> <endsatline>false</endsatline><upstreamport>OUT</upstreamport><downstreamport>IN</downstreamport><segno>0</segno></connection> 
+<connection> <fromx>660</fromx> <fromy>393</fromy> <tox>712</tox> <toy>247</toy> <fromid>12</fromid> <toid>14</toid> <id>15</id> <endsatline>true</endsatline><upstreamport>OUT</upstreamport><segno>0</segno><bends> <bend> <x>712</x> <y> 392</y> </bend>
+ </bends> </connection> 
+</connections> </net> </drawfbp_file>

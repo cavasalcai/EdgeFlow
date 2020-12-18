@@ -1,0 +1,31 @@
+<?xml version="1.0"?> 
+ <drawfbp_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:noNamespaceSchemaLocation="https://github.com/jpaulm/drawfbp/blob/master/lib/drawfbp_file.xsd">
+<net>
+<desc>Click anywhere on selection area</desc>
+ <complang>Java</complang>
+ <clicktogrid>true</clicktogrid> 
+<sortbydate>false</sortbydate> 
+<blocks><block> <x> 472 </x> <y> 224 </y> <id> 2 </id> <type>B</type> <width>92</width> <height>64</height> <description>C1: Motion 
+Detection</description> <blockclassname>/Users/cosmin/drawFBP/drawFBP-project-colab/ApplicationModel/javafbp/target/classes!com.jpaulmorrison.fbp.core.components.edgeflow.MotionDetection</blockclassname> <multiplex>false</multiplex><invisible>false</invisible><issubnet>false</issubnet> 
+</block> 
+<block> <x> 657 </x> <y> 224 </y> <id> 3 </id> <type>B</type> <width>92</width> <height>64</height> <description>C2: Face
+Recognition</description> <blockclassname>/Users/cosmin/drawFBP/drawFBP-project-colab/ApplicationModel/javafbp/target/classes!com.jpaulmorrison.fbp.core.components.edgeflow.FaceRecognition</blockclassname> <multiplex>false</multiplex><invisible>false</invisible><issubnet>false</issubnet> 
+</block> 
+<block> <x> 657 </x> <y> 333 </y> <id> 4 </id> <type>B</type> <width>92</width> <height>64</height> <description>C3: Env.
+Analysis</description> <blockclassname>/Users/cosmin/drawFBP/drawFBP-project-colab/ApplicationModel/javafbp/target/classes!com.jpaulmorrison.fbp.core.components.edgeflow.EnvAnalysis</blockclassname> <multiplex>false</multiplex><invisible>false</invisible><issubnet>false</issubnet> 
+</block> 
+<block> <x> 836 </x> <y> 224 </y> <id> 5 </id> <type>B</type> <width>92</width> <height>64</height> <description>C4: Send
+Alarm</description> <blockclassname>/Users/cosmin/drawFBP/drawFBP-project-colab/ApplicationModel/javafbp/target/classes!com.jpaulmorrison.fbp.core.components.edgeflow.SendAlarm</blockclassname> <multiplex>false</multiplex><invisible>false</invisible><issubnet>false</issubnet> 
+</block> 
+<block> <x> 465 </x> <y> 136 </y> <id> 7 </id> <type>I</type> <width>66</width> <height>18</height> <description>raw_data</description> <multiplex>false</multiplex><invisible>false</invisible><issubnet>false</issubnet> 
+</block> 
+</blocks> <connections>
+<connection> <fromx>518</fromx> <fromy>223</fromy> <tox>611</tox> <toy>223</toy> <fromid>2</fromid> <toid>3</toid> <id>1</id> <endsatline>false</endsatline><upstreamport>OUT</upstreamport><downstreamport>IN</downstreamport><segno>0</segno></connection> 
+<connection> <fromx>703</fromx> <fromy>224</fromy> <tox>790</tox> <toy>224</toy> <fromid>3</fromid> <toid>5</toid> <id>2</id> <endsatline>false</endsatline><upstreamport>OUT</upstreamport><downstreamport>IN</downstreamport><segno>0</segno></connection> 
+<connection> <fromx>703</fromx> <fromy>332</fromy> <tox>756</tox> <toy>224</toy> <fromid>4</fromid> <toid>2</toid> <id>5</id> <endsatline>true</endsatline><upstreamport>OUT</upstreamport><segno>0</segno><bends> <bend> <x>756</x> <y> 332</y> </bend>
+ </bends> </connection> 
+<connection> <fromx>466</fromx> <fromy>256</fromy> <tox>611</tox> <toy>339</toy> <fromid>2</fromid> <toid>4</toid> <id>6</id> <endsatline>false</endsatline><upstreamport>OUT</upstreamport><downstreamport>IN</downstreamport><segno>0</segno><bends> <bend> <x>466</x> <y> 340</y> </bend>
+ </bends> </connection> 
+<connection> <fromx>465</fromx> <fromy>145</fromy> <tox>465</tox> <toy>192</toy> <fromid>7</fromid> <toid>2</toid> <id>7</id> <endsatline>false</endsatline><downstreamport>IN</downstreamport><segno>0</segno></connection> 
+</connections> </net> </drawfbp_file>
