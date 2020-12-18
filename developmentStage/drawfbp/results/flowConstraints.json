@@ -1,0 +1,36 @@
+{
+  "constraints": {
+    "flows": [
+      {
+        "id": "f1",
+        "e2e": "100",
+        "path": [
+          {
+            "src": "c1",
+            "dest": "c2",
+            "port": [
+              {
+                "input": "IN"
+              },
+              {
+                "output": "OUT"
+              }
+            ]
+          },
+          {
+            "src": "c2",
+            "dest": "",
+            "port": [
+              {
+                "input": "In"
+              },
+              {
+                "output": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
